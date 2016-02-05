@@ -12,4 +12,16 @@ public class BattleShip {
 		return userGuess;
 	}
 
+	public void setGameGrid (int[] arr) {
+	
+		gameGrid = arr;
+	
+	}
+	
+	public int[] getGameGrid () {
+	
+		return gameGrid;
+	}
+
+
 }
